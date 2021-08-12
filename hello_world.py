@@ -20,7 +20,8 @@ CustomGrid:
         MDLabel:
             id: txt
             text: ''
-            size_hint_x: None
+            size_hint: None, None
+            
             pos_hint: {'center_x': 0.5, 'center_y': 0.9}
             
         MDFillRoundFlatButton:
@@ -50,6 +51,7 @@ class CustomGrid(MDGridLayout):
 
     def wel(self):
         self.ids.txt.text = 'Hello World'
+        self.ids.txt.font_style = 'H4'
 
     def date_(self, value):
         now = datetime.now()
@@ -63,6 +65,7 @@ class CustomGrid(MDGridLayout):
             self.ids.txt.text = '0'
 
         self.ids.txt.text = str(int(self.ids.txt.text) + 1)
+        self.ids.txt.font_style = 'H2'
 
 
 class TestApp(MDApp):
