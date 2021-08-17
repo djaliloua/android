@@ -7,3 +7,6 @@
 </p>
 <p> In kivy application, you have to avoid long or infinite loops or sleeping.<br> More information, visit the official site by pressing <a href="https://kivy.org/doc/stable/guide/events.html" target="_blank">Here</a>
 </p>
+<p> Another option to avoid your kivy application to break in running both main thread and while loop,<br> 
+  is to use threading package to parallelize the computation. Please, follow the example done in the hello_world_thread.py
+</p>
