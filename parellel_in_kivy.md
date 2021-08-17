@@ -5,5 +5,5 @@
   that main loop is single-threaded. This can cause problems when building callbacks with infinite loop(e.g. while True:) <br>
   inside the main loop. Usually, the main loop is broken and your application doesn't work anymore.
 </p>
-<p> In kivy application, you have to avoid long or infinite loops or sleeping.<br> More information, visit the official site by pressing <a href="https://kivy.org/doc/stable/guide/events.html">Here</a>
+<p> In kivy application, you have to avoid long or infinite loops or sleeping.<br> More information, visit the official site by pressing <a href="https://kivy.org/doc/stable/guide/events.html" target="_blank">Here</a>
 </p>
